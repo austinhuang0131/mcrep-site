@@ -8,4 +8,4 @@ The site has been created with the following libaries:
 </ul>
 
 
-The site is made by Spacey, you can follow him on <a href="https:/twitter.com/mrspacebob">Twitter</a>.
+The site is made by Spacey, you can follow him on <a href="https://twitter.com/mrspacebob">Twitter</a>.
