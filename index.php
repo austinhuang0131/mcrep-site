@@ -1,19 +1,33 @@
+<?php $page = 'Home'; include 'assets/includes/header.php'; include 'assets/includes/config.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
+
   <title>MCRep</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
   <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
+
 <body>
  <div id="app">
    <v-app light>
+
     <v-toolbar class="white">
         <v-toolbar-title v-text="titleupper" style="font-weight: 700;"></v-toolbar-title>
         <v-chip color="red" text-color="white">Beta</v-chip>
+        <v-spacer></v-spacer>
+        <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
+        <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat><a href="login.php" class="list__tile list__tile--link">Login</a></v-btn>
+        <v-btn flat><a href="register.php" class="list__tile list__tile--link">Register</a></v-btn>
+        <v-btn flat><a href="profile/<?php echo $_SESSION['username'] ?>" class="list__tile list__tile--link">Your Profile</a></v-btn>
+        </v-toolbar-items>
     </v-toolbar>
+
     <main>
       <v-content>
         <section>
@@ -176,28 +190,18 @@
                 &copy; MCRep 2017 |
                 Made with <v-icon class="red--text">favorite</v-icon>
                 by <a class="white--text" href="http://twitter.com/mrspacebob" target="_blank">Spacey</a>
-
               </div>
             </v-flex>
           </v-layout>
         </v-footer>
       </v-content>
     </main>
+
   </v-app>
  </div>
+
  <script src="https://unpkg.com/vue/dist/vue.js"></script>
  <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
- <script>
-   new Vue({
-    el: '#app',
-    data () {
-      return {
-        title: 'MCRep',
-        titleupper: 'MCREP',
-        copyright: 'MCRep 2017'
-      }
-    }
-  })
- </script>
+ <script src="assets/js/lang.js"></script>
 </body>
 </html>
