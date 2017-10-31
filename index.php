@@ -31,14 +31,14 @@
     <main>
       <v-content>
         <section>
-          <v-parallax src="assets/background.jpg" height="600">
+          <v-parallax src="assets/img/background.jpg" height="600">
             <v-layout
               column
               align-center
               justify-center
               class="white--text"
             >
-              <img src="assets/mcrep.png" alt="MCRep" height="150"><br>
+              <img src="assets/img/mcrep.png" alt="MCRep" height="150"><br>
               <h1 class="white--text mb-2 display-1 text-xs-center" v-text="title"></h1>
               <div class="subheading mb-3 text-xs-center">The marketplace to find the staff you need, and avoid scammers.</div>
               <br>
@@ -112,7 +112,7 @@
                 class="blue lighten-2 mt-5"
                 dark
                 large
-                href="/signup.html"
+                href="/signup.php"
               >
                 Get Started
               </v-btn>
