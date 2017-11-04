@@ -2,7 +2,7 @@
 	$site = array(
 		"name" => "MCRep",
 		"version" => "0.0.1",
-		"url" => "http://mcrep.us"
+		"url" => "http://j3e90r-user.freehosting.host"
 	);
 
 	$mysql = array(
