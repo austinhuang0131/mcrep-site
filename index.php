@@ -28,9 +28,7 @@
           >
             <v-flex xs12 sm4 class="my-2">
               <div class="text-xs-center">
-                  <v-card-text>
-                    MCRep is a platform dedicated to hiring staff, content creators, developers, 
-                    designers and more on a safe and collective platform where you can hire those who are reputable.
+              MCRep is a place dedicated to hiring staff, content creators, developers, designers and more on a safe and collective platform where you can hire those who are reputable.
                   </v-card-text>
               </div>
             </v-flex>

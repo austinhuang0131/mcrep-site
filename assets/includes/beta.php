@@ -27,7 +27,7 @@
                     <div class="headline">Contact us</div>
                   </v-card-title>
                   <v-card-text>
-                    If at any point you need to contact us for buissness, support or to make reports please use the following email addresses.
+                    If at any point you need to contact us for buisness, support or to make reports please use the following email addresses.
                   </v-card-text>
                   <v-list class="transparent">
                     <v-list-tile>
