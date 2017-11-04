@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['username'] = $user['username'];
             $_SESSION['active'] = $user['active'];
             $_SESSION['logged_in'] = true;
-            header("Location: " . $site['url'] . "profile/" . $_SESSION['username']);
+            header("Location: " . $site['url'] . "/profile/" . $_SESSION['username']);
             exit();
         } else {
             $error = 'Wrong password.';
