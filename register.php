@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     if ($mysqli->query($sql)) {
                         $_SESSION['logged_in'] = false;;
 
-                        header("Location: " . $site['url'] . "login");
+                        header("Location: " . $site['url'] . "/login");
                         exit();
                     } else {
                         $error = 'Registration failed! Please contact Spacey with error: SQL_REG_SESSION_ERROR';
