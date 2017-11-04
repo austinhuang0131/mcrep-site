@@ -1,5 +1,5 @@
 <?php
-$page = 'Home';
+$page = 'Login';
 $error = '';
 include 'assets/includes/config.php';
 
@@ -25,16 +25,42 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     }
 }
+?>
+<?php   include 'assets/includes/header.php'; ?>
+<section>
+    <v-parallax src="assets/img/background.jpg" height="600">
+        <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
+        >
+        <img src="assets/img/mcrep.png" alt="MCRep" height="150"><br>
+        <h1 class="white--text mb-2 display-1 text-xs-center" v-text="login"></h1>
 
-include 'assets/includes/header.php';
- ?>
-<form method="POST">
-    <label>Username</label>
-    <input type="text" name="username" required>
-    <br>
-    <label>Password</label>
-    <input type="password" name="password" required>
-    <br>
-    <button type="submit">Sign In</button>
-    <?php echo $error; ?>
-</form>
+        <form method="POST">
+            <label>Username</label>
+                <input type="text" name="username" required><br>
+            <label>Password</label>
+                <input type="password" name="password" required><br>
+            <center><v-btn
+            color="info"
+            :loading="loading4"
+            @click.native="loader = 'loading4'"
+            :disabled="loading4"
+            type="submit"
+            >
+            Login
+            <span slot="loader" class="custom-loader">
+                <v-icon light>cached</v-icon>
+            </span>
+            </v-btn></center>
+            <?php if ($error !== "") {?>
+            <v-alert color="error" icon="warning" value="true"><?php echo $error; ?></v-alert>
+            <?php } ?>
+        </form>
+        </v-layout>
+    </v-parallax>
+</section>
+<?php  include 'assets/includes/beta.php'; include 'assets/includes/footer.php'; ?>
+
