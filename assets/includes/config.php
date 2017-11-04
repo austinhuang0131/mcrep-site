@@ -9,7 +9,7 @@
 		"host" => "sql2.freemysqlhosting.net",
 		"database" => "sql2202422",
 		"username" => "sql2202422",
-		"password" => "sF7*jM8!"
+		"password" => "REDACTED"
 	);
 	$mysqli = new mysqli($mysql['host'], $mysql['username'], $mysql['password'], $mysql['database']);
 
