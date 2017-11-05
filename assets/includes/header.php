@@ -21,7 +21,7 @@
         <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
         <v-toolbar-items class="hidden-sm-and-down">
         <?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {?>
-            <v-btn flat><a href="/profile/<?php echo $_SESSION['username'] ?>"<strong><?php echo $_SESSION['username'] ?></strong></a></v-btn>
+            <v-btn flat><a href="/profile/<?php echo $_SESSION['username'] ?>"><strong><?php echo $_SESSION['username'] ?></strong></a></v-btn>
             <v-btn flat><a href="/logout.php" class="list__tile">Logout</a></v-btn>
 
         <?php } else { ?>
