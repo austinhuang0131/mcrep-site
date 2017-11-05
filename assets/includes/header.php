@@ -22,11 +22,11 @@
         <v-toolbar-items class="hidden-sm-and-down">
         <?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {?>
             <v-btn flat>Logged in as &nbsp;<strong><?php echo $_SESSION['username'] ?></strong></v-btn>
-            <v-btn flat><a href="profile/<?php echo $_SESSION['username'] ?>" class="list__tile list__tile--link">Your Profile</a></v-btn>
+            <v-btn flat><a href="profile/<?php echo $_SESSION['username'] ?>" class="list__tile list__tile--link">Profile</a></v-btn>
             <v-btn flat><a href="logout.php" class="list__tile list__tile--link">Logout</a></v-btn>
 
         <?php } else { ?>
-            <v-btn flat>Logged out</v-btn>
+            <v-btn flat>Not logged in</v-btn>
             <v-btn flat><a href="login.php" class="list__tile list__tile--link">Login</a></v-btn>
             <v-btn flat><a href="register.php" class="list__tile list__tile--link">Register</a></v-btn>
         <?php } ?>
