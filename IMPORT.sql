@@ -40,7 +40,6 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('anus','jordan7234%40gmail.com','$2y$10$bMxNg9vnucG6E1vaoKsknuB940oSz6AYuILhq9XVUXJaEdMPppLz6','42998cf32d552343bc8e460416382dca','Content+Creator','i+suck'),('finlay','test%40test.com','$2y$10$hpXueuEwp0SPAdXALqlI5OFeW2T.TWpNaINzEHMFaeJEVKX2nUXPi','0e65972dce68dad4d52d063967f0a705','Developer','cool+guy'),('Fudge','hello%40lukehallett.co.uk','$2y$10$gX1m4SXYZ/JrZ.6ONw5QoOrtRcypnhRBsfTc66qQ.rW.ynr6zoXme','ef0d3930a7b6c95bd2b32ed45989c61f','Web+Developer','I\'m bad!');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
