@@ -59,9 +59,7 @@
                         <div class="headline">Avoid scammers</div>
                       </v-card-title>
                       <v-card-text>
-                        Using our dedicated scammer page and reports from the community,
-                        we are able to identify scammers and unreputable users and protect
-                        you and your server from them.
+                      Using our dedicated scammer page and reports from the community, we are able to identify scammers and unreputable people(?) from harming you ever again.
                       </v-card-text>
                     </v-card>
                   </v-flex>
