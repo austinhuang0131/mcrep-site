@@ -44,9 +44,9 @@
                         <div class="headline text-xs-center">Find the most reputable staff</div>
                       </v-card-title>
                       <v-card-text>
-                        Using our reputation system (coming soon), you can reach out to the staff that
-                        have a certain reputation level. This way, you know from experience that
-                        you are in good hands.
+                        Using our reputation system (coming soon), you can reach out to reputable
+                        and experienced staff.
+                        This way, you can always ensure that your server is in good hands.
                       </v-card-text>
                     </v-card>
                   </v-flex>
@@ -60,8 +60,8 @@
                       </v-card-title>
                       <v-card-text>
                         Using our dedicated scammer page and reports from the community,
-                        we are able to indentify those who are scammers and unreputable
-                        and prevent you from hiring them.
+                        we are able to identify scammers and unreputable users and protect
+                        you and your server from them.
                       </v-card-text>
                     </v-card>
                   </v-flex>
