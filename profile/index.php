@@ -39,7 +39,7 @@ $username_url = urldecode(urlencode(basename(parse_url($_SERVER['REQUEST_URI'], 
 	</v-flex>
 	<v-flex xs8 md4>
 		<div class="text-xs-center">
-			<p><?php echo $userrow['bio']; ?></p>
+			<p><?php echo urldecode($userrow['bio']); ?></p>
 		</div>
 	</v-flex>
 </v-layout>
