@@ -59,7 +59,7 @@
                         <div class="headline">Avoid scammers</div>
                       </v-card-title>
                       <v-card-text>
-                      Using our dedicated scammer page and reports from the community, we are able to identify scammers and unreputable people(?) from harming you ever again.
+                      Using our dedicated scammer page and reports from the community, you will be able to prevent scammers and unreputable users from harming you ever again.
                       </v-card-text>
                     </v-card>
                   </v-flex>
