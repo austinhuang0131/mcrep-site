@@ -17,7 +17,7 @@
                       <li>Policies and agreements are subject to change at any time.</li>
                     </ol>
                     <br><v-icon class="red--text">favorite</v-icon> Thanks for taking part in our open beta!
-                    <br><v-icon class="red--text">code</v-icon> Please report bugs to devs@mcrep.us
+                    <br><v-icon class="red--text">code</v-icon> Please report bugs to devs@mcrep.us.
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -27,7 +27,7 @@
                     <div class="headline">Contact us</div>
                   </v-card-title>
                   <v-card-text>
-                    If at any point you need to contact us for buisness, support or to make reports please use the following email addresses.
+                    If at any point you need to contact us for business, support or to make reports please use the following email addresses.
                   </v-card-text>
                   <v-list class="transparent">
                     <v-list-tile>
@@ -35,7 +35,7 @@
                         <v-icon large class="blue--text text--lighten-2">email</v-icon>
                       </v-list-tile-action>
                       <v-list-tile-content>
-                        <v-list-tile-title><strong>Buisness</strong> &nbsp;arus@mcrep.us</v-list-tile-title>
+                        <v-list-tile-title><strong>Business</strong> &nbsp;arus@mcrep.us</v-list-tile-title>
                       </v-list-tile-content>
                     </v-list-tile>
                     <v-list-tile>
